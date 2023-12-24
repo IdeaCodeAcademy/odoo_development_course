@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="website_tutorial.Home" name="Sample Temp">
+        <!--        <t t-call-assets="web.assets_frontend"/>-->
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>Hello </h1>
+                <button class="btn btn-primary">Button</button>
+            </div>
+        </t>
+    </template>
+</odoo>
